@@ -1,0 +1,21 @@
+* {margin:0; padding:0; outline:0}
+body {font:11px Verdana,Arial; color:#000; background:#fff}
+.nav1 {height:36px; background:#aaa; color:#fff; text-shadow:1px 1px #888; z-index:1000}
+.nav2 {text-decoration-color: white; color:#fff}
+.menux a {float:left; color:#eee; text-decoration:none; width:140px; height:28px; padding-top:8px}
+.menux span {float:left; color:#eee; text-decoration:none; width:140px; height:28px; padding-top:8px}
+.menux a:hover {color:#fff}
+.menux {list-style:none; font:16px Arial,Verdana; text-align:center; width:1300px; margin:0 auto}
+.menux li {position:relative; float:left; width:140px; z-index:1000}
+.menux ul {display:none; position:absolute; font:normal 13px Arial,Verdana; top:36px; left:0; background:#aaa; display:none; list-style:none}
+.menux ul li {float:none; border-top:1px solid #ccc; width:140px}
+.menux ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none; height:22px; padding-top:5px}
+.menux ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:#999; color:#fff}
+.menux ul li span, li.menuhover li span, li.menuhover li.menuhover li span {float:none; display:block; background:none; height:22px; padding-top:1px}
+.menux ul ul {left:120px; top:0}
+.menux li.submenu {font-weight:bold}
+.menux li.noborder {border-top:none}
+li.menuhover a, li.menuhover li.menuhover a {color:#fff; background:#999}
+li.menuhover span, li.menuhover li.menuhover span {color:#fff; background:#999}
+#info1 {width:180px; background:#eee}
+#info1 li {width:160px; border-top:none; padding:8px 10px; color:#666; text-shadow:1px 1px #fff; text-align:left}
